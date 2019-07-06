@@ -1,0 +1,98 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #e0d6c2;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Alegreya SC', serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+#header {
+  height: 800px;
+}
+
+#work {
+  height: 1550px;
+  padding: 20px 0;
+}
+
+#about {
+  height: 550px;
+}
+
+#contact {
+  height: 400px;
+}
+
+#hero {
+  margin: 0 20px;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.image {
+  height: 550px;
+  width: 1200px;
+}
+
+header {
+  margin: 0 20px;
+  height: 100px;
+  background-color: #ffcb6b;
+}
+
+header h1 {
+  padding 65px 0 65px 25px;
+  font-size: 32px;
+}
+
+header nav {
+  float: right;
+  padding: 75px 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 80px;
+  color: inherit;
+}
+
+.preview-one, .preview-two, .preview-three {
+  width: 1200px;
+  height: 510px;
+  font-size: 27px;
+}
+.preview-one img, .preview-two img, .preview-three img {
+  width: 550px;
+  height: auto;
+  float: left;
+  padding-right: 50px;
+}
+
+/*.preview-one p, .preview-two p, .preview-three p {
+  float: right;
+}*/
