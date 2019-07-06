@@ -1,15 +1,15 @@
 body {
   font-family: 'Alegreya Sans', sans-serif;
-  background-color: #e0d6c2;
+  background-color: #1C1E26;
   color: #ffffff;
   margin: 0 auto;
 }
 
-h1 {
+h1, nav ul li strong{
   font-family: 'Alegreya SC', serif;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5 {
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -34,17 +34,13 @@ p {
   height: 400px;
 }
 
-#hero {
-  margin: 0 20px;
-}
-
 .full-width {
   width: 1200px;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 700px;
+  width: 500px;
   float: left;
 }
 
@@ -60,39 +56,116 @@ p {
 
 header {
   margin: 0 20px;
-  height: 100px;
-  background-color: #ffcb6b;
 }
 
-header h1 {
-  padding 65px 0 65px 25px;
+nav {
+
+}
+
+li strong {
   font-size: 32px;
-}
-
-header nav {
-  float: right;
-  padding: 75px 25px;
+  padding-right: 500px;
 }
 
 header nav ul li a {
   text-decoration: none;
   font-size: 18px;
-  padding-left: 80px;
   color: inherit;
+  padding-left: 29px;
 }
-
+#work h2 {
+  font-size: 32px;
+  text-align: center;
+}
 .preview-one, .preview-two, .preview-three {
   width: 1200px;
   height: 510px;
   font-size: 27px;
+  clear: both;
 }
-.preview-one img, .preview-two img, .preview-three img {
+
+.preview-one img, .preview-three img {
   width: 550px;
   height: auto;
   float: left;
   padding-right: 50px;
 }
 
-/*.preview-one p, .preview-two p, .preview-three p {
+.preview-two img {
+  width: 550px;
+  height: auto;
   float: right;
-}*/
+}
+
+ .preview-two h4, .preview-two h5, .preview-two p {
+   padding-right: 50px;
+   width: 500px;
+ }
+
+ .preview-three img{
+   margin-bottom: 40px;
+ }
+
+ #about {
+   background-image: url('../img/tim-arterbury-vkwrmha1_tI-unsplash.jpg');
+   background-size: cover;
+   text-align: left;
+   clear: both;
+   margin: 0 30px;
+   /*border: 3px solid #F20587;*/
+ }
+
+ .half-width {
+   float: right;
+   color: #F20587;
+   font-size: 18px;
+   margin: 75px 75px;
+   padding-left: 20px;
+ }
+
+ #about h3 {
+   padding-left: 35px;
+ }
+
+ #about p {
+   width: 300px;
+   padding: 35px;
+ }
+
+ #contact h3 {
+   text-align: center;
+   font-size: 32px;
+ }
+
+ #contact h4 {
+   text-align: center;
+   font-size: 18px;
+   color: #F20587;
+ }
+
+ #box-one, #box-two, #box-three {
+   text-align: center;
+ }
+
+ #contact a {
+   text-decoration: none;
+   color: #F20587;
+ }
+
+ #box-two ul li {
+   display: inline;
+   padding: 0 20px;
+ }
+
+ #contact ul li {
+   list-style-type: none;
+ }
+
+ #box-one h4, #box-three h4 {
+   padding-left: 30px;
+ }
+
+footer {
+  clear: both;
+  text-align: center;
+}
