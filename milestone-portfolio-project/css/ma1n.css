@@ -18,12 +18,14 @@ p {
 }
 
 #header {
-  height: 800px;
+  height: 600px;
 }
 
 #work {
-  height: 1550px;
-  padding: 20px 0;
+  height: 1470px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 #about {
@@ -32,6 +34,7 @@ p {
 
 #contact {
   height: 400px;
+  clear: both;
 }
 
 .full-width {
@@ -59,7 +62,7 @@ header {
 }
 
 nav {
-
+  height: auto;
 }
 
 li strong {
@@ -74,13 +77,16 @@ header nav ul li a {
   padding-left: 29px;
 }
 #work h2 {
-  font-size: 32px;
+  font-size: 40px;
+  font-weight: 700;
   text-align: center;
+  padding: 20px 0;
 }
 .preview-one, .preview-two, .preview-three {
   width: 1200px;
-  height: 510px;
+  height: 410px;
   font-size: 27px;
+  padding: 20px 0;
   clear: both;
 }
 
@@ -97,6 +103,10 @@ header nav ul li a {
   float: right;
 }
 
+.preview-two {
+  text-align: right;
+}
+
  .preview-two h4, .preview-two h5, .preview-two p {
    padding-right: 50px;
    width: 500px;
@@ -109,32 +119,43 @@ header nav ul li a {
  #about {
    background-image: url('../img/tim-arterbury-vkwrmha1_tI-unsplash.jpg');
    background-size: cover;
-   text-align: left;
+   text-align: center;
    clear: both;
    margin: 0 30px;
-   /*border: 3px solid #F20587;*/
  }
 
- .half-width {
+ .about img {
+   clear: both;
+ }
+
+ #about .half-width {
    float: right;
    color: #F20587;
    font-size: 18px;
-   margin: 75px 75px;
-   padding-left: 20px;
+   margin: 75px 0 75px 120px;
+   padding: 35px 50px 0 30px;
  }
 
  #about h3 {
-   padding-left: 35px;
+   text-align: left;
+   padding-right: 40px;
+   padding-left: 135px;
+   margin-left: 0;
+   margin-bottom: 0;
  }
 
  #about p {
    width: 300px;
    padding: 35px;
+   padding-bottom: 0;
+   line-height: 25px;
+   margin-top: 0;
  }
 
  #contact h3 {
    text-align: center;
    font-size: 32px;
+   margin-top: 0;
  }
 
  #contact h4 {
@@ -168,4 +189,20 @@ header nav ul li a {
 footer {
   clear: both;
   text-align: center;
+}
+
+.preview-one img, .preview-two img, .preview-three img {
+  border: 3px solid #1CA9FF;
+}
+
+.preview-one h4, .preview-one h5, .preview-one p {
+  border: 3px solid #FF00C1;
+}
+
+.preview-two h4, .preview-two h5, .preview-two p {
+  border: 3px solid #FF00C1;
+}
+
+.preview-three h4, .preview-three h5, .preview-three p {
+  border: 3px solid #FF00C1;
 }
